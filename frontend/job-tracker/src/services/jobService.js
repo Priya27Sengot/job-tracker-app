@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //const API_URL="https://localhost:7182/api/Jobs";
-const API_URL="https://job-tracker-app-w7q4.onrender.com/Jobs"
+const API_URL="https://job-tracker-app-w7q4.onrender.com/api/Jobs"
 
 export const getJobs=()=>{
     return axios.get(API_URL);
